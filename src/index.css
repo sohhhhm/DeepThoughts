@@ -1,0 +1,261 @@
+body {
+  margin: 0%;
+  position: relative;
+  width: 1440px;
+  height: 1805px;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.explore {
+  position: absolute;
+  width: 1066px;
+  height: 135px;
+  left: 187px;
+  top: 187px;
+  padding: 25px;
+  background: #e9ecef;
+  border-radius: 5px;
+}
+
+/* navbar Css */
+.leftBar {
+  position: absolute;
+  width: 95px;
+  height: 394px;
+  left: 1345px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px 0px 0px 30px;
+}
+.blackBar {
+  position: relative;
+  width: 50px;
+  height: auto;
+}
+
+/* Main CSS */
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.col-6 {
+  flex: 1 1 50%;
+  box-sizing: content-box;
+}
+
+.cardContainer {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+
+  margin-top: 120px;
+  position: absolute;
+  width: 480px;
+  height: 580px;
+  background: #fdfdfd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  font-size: 8px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 15px 15px 0px 0px;
+}
+.threads {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.subthread1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 199px;
+  height: 95px;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.subthread1 p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.subthread2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 199px;
+  height: 95px;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.subthread2 p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+#threadTextBox {
+  position: relative;
+  width: 195px;
+  height: 70px;
+  border: #fdfdfd;
+  border-radius: 10px;
+  resize: none;
+}
+#threadTextBox::placeholder {
+  color: #888;
+  font-size: 14px;
+
+  opacity: 1;
+  text-align: left;
+  padding-left: 10px;
+}
+.threadOptContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.threadOpt {
+  margin-left: 140px;
+  margin-right: 35px;
+  display: flex;
+  justify-items: end;
+  align-items: start;
+}
+.threadOpt2 {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.submitThread {
+  margin: 20px 0 10px 12px;
+  background: transparent;
+  border: none;
+  padding: 10px; /* You can adjust padding around the SVG */
+  cursor: pointer; /* Makes it look clickable */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease; /* Optional animation on hover */
+}
+
+.submitThread:hover {
+  transform: scale(1.1); /* Slight scale effect when hovered */
+}
+.subthread3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 437px;
+  height: 95px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.subthread3 p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+#subthreadTextBox {
+  padding-left: 10px;
+
+  resize: none;
+  width: 425px;
+  height: 70px;
+  border: #fdfdfd;
+  border-radius: 10px;
+}
+.title_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.card4features {
+  padding: 0;
+  margin-top: 19px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Footer */
+.footerContainer {
+  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stackedOpt {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.image-container {
+  position: relative;
+  width: 85px; 
+  height: 85px; }
+
+.image1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 37px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
